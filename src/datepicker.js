@@ -2,7 +2,7 @@
   Importing this scss file so as to declare it's a dependency in the library.
   Webpack will then separate it out into its own css file and include it in the dist folder.
 */
-import './datepicker.scss'
+import './datepicker.min.css'
 
 
 var datepickers = [] // Get's reassigned in `remove()` below.
